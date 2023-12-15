@@ -19,21 +19,48 @@
 }
 
 .logo {
-  width: 50px; /* Adjust this size according to your logo */
+  width: 100px; /* Adjust this size according to your logo */
   height: auto; /* Maintain aspect ratio */
   margin-right: 20px;
 }
 
-.navbar-right .nav-button {
+.navbar-right .nav-button-one {
   margin-left: 10px;
   padding: 8px 16px;
   border: none;
-  border-radius: 4px;
-  background-color: #622be2;
-  color: rgb(168, 32, 32);
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #4A9230;
+  cursor: pointer;
+}
+.navbar-right .nav-button-two {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4A9230;
+  color: rgb(255, 255, 255);
   cursor: pointer;
 }
 
-.navbar-right .nav-button:hover {
-  background-color: hwb(0 21% 41%);
+.navbar-right .nav-button-one:hover {
+  background-color: #b8b8b88c;
+}
+
+.navbar-right .nav-button-two:hover {
+  background-color: #006629;
+}
+
+/* Additional text styling */
+.additional-text {
+  margin-top: 5px;
+  font-size: 60px; /* Set your desired font size */
+  font-family: Arial, sans-serif; /* Set your desired font */
+}
+
+/* Additional image styling */
+.additional-image {
+  margin-top: 2px;
+  width: 800px; /* Set your desired image width */
+  height: auto; /* Maintain aspect ratio */
 }
