@@ -24,8 +24,9 @@
   margin-right: 20px;
 }
 
-.navbar-right .nav-button-one {
+.navbar-right .login-H {
   margin-left: 10px;
+  width: 100px;
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
@@ -33,7 +34,8 @@
   color: #4A9230;
   cursor: pointer;
 }
-.navbar-right .nav-button-two {
+.navbar-right .register-H {
+  width: 100px;
   margin-left: 10px;
   padding: 8px 16px;
   border: none;

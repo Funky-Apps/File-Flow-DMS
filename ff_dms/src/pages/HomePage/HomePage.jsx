@@ -12,10 +12,10 @@ const HomePage = () => (
         </div>
         <div className="navbar-right">
           <Link to="/login">
-            <button className="nav-button-one">Login</button>
+            <button className="login-H">Login</button>
           </Link>
           <Link to="/register">
-            <button className="nav-button-two">Register</button>
+            <button className="register-H">Register</button>
           </Link>
         </div>
       </nav>

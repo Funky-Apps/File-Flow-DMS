@@ -25,7 +25,7 @@ const LoginPage = () => {
           <input type="text" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <p className="forgot-password">Forgot password?</p>
-          <button className="login-button">Login</button>
+          <button className="login-button" >Login</button>
         </form>
         <div className="social-login">
           <img src={require("./images/google.png")} alt="Sign in with Google" />
