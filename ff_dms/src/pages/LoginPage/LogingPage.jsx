@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./logingPage.css";
 
 const LoginPage = () => {
@@ -25,7 +26,10 @@ const LoginPage = () => {
           <input type="text" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <p className="forgot-password">Forgot password?</p>
-          <button className="login-button" >Login</button>
+          {/* Use Link to navigate to '/dashboard' */}
+          <Link to="/dashboard">
+            <button className="login-button">Login</button>
+          </Link>
         </form>
         <div className="social-login">
           <img src={require("./images/google.png")} alt="Sign in with Google" />

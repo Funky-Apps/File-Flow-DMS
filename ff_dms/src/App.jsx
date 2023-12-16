@@ -4,7 +4,7 @@ import './App.css';
 import HomePage from './pages/HomePage/HomePage';
 import LoginPage from './pages/LoginPage/LogingPage';
 import RegisterPage from './pages/RegisterPage/RegisterPage';
-import DashboardPage from './pages/DashbiardPage/DashboardPage';
+import DashboardPage from './pages/DashboardPage/DashboardPage';
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <div className="App">
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route exact path="/login" element={<LoginPage />} />
-          <Route path="/dashboard" element={DashboardPage} />
-          <Route exact path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/dashboard" element={<DashboardPage />} /> {/* Use element prop for consistency */}
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
       </div>
     </Router>
