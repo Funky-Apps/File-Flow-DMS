@@ -1,0 +1,102 @@
+/* Styling for RegisterPage */
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-image {
+    max-width: 75%;
+    height: auto;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    text-align: left;
+    width: 475px;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  /* Input styles */
+
+input {
+    margin-bottom: 15px;
+    width: 450px;
+    padding: 10px;
+    color: #6e6e6e;
+  }
+  
+  /* Select styles */
+  select {
+    margin-bottom: 15px;
+    width: 450px;
+    padding: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    margin-bottom: 15px;
+    width: 450px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  /* Select styles */
+  select {
+    margin-bottom: 15px;
+    width: 475px;
+    padding: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    margin-bottom: 15px;
+    width: 450px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register-button {
+    background-color: #4A9230;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 475px;
+    border-radius: 6px;
+  }
+  
+  .social-login {
+    text-align: center;
+  }
+  
+  /* Add any additional styles as needed */
+  

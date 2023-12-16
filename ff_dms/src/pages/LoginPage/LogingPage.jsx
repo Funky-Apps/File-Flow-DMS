@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className="left-section">
         {/* Left Section with an image */}
         <img
-          src="left-image-url.jpg"
+          src={require("./images/login.png")}
           alt="Left Section"
           className="left-image"
         />
@@ -28,7 +28,7 @@ const LoginPage = () => {
           <button className="login-button">Login</button>
         </form>
         <div className="social-login">
-          <img src="google-image-url.jpg" alt="Sign in with Google" />
+          <img src={require("./images/google.png")} alt="Sign in with Google" />
           <p>
             Don't have an account? <a href="./register">Register</a>
           </p>

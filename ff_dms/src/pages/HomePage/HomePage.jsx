@@ -7,7 +7,7 @@ const HomePage = () => (
       <nav className="navbar">
         <div className="navbar-left">
           <Link to="/">
-            <img src={require('./images/logoFF.png')} alt="" className="logo" />
+            <img src={require('./images/logoFF.png')} alt="" className="logoH" />
           </Link>
         </div>
         <div className="navbar-right">
