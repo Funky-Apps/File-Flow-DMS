@@ -1,0 +1,73 @@
+/* loginPage.css */
+
+.login-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* Add background color or image if needed */
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    text-align: left;
+    width: 250px;
+  }
+
+.logo img {
+  width: 100px;
+  height: auto;
+  align-self: start;
+}
+
+  
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .forgot-password {
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    text-align: center;
+  }
+  
+  .social-login img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
