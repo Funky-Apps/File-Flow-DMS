@@ -26,6 +26,7 @@ const LoginPage = () => {
           <input type="text" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <p className="forgot-password">Forgot password?</p>
+          
           {/* Use Link to navigate to '/dashboard' */}
           <Link to="/dashboard">
             <button className="login-button">Login</button>
