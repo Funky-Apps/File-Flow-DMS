@@ -14,6 +14,7 @@ const DashboardPage = () => {
           {/* Your small logo */}
           <img src={require("./images/logoFF.png")} alt="Logo" />
         </div>
+        
         <div className="user-info">
           {/* Welcome message and user icon */}
           <p>Welcome, {userName}!</p>
